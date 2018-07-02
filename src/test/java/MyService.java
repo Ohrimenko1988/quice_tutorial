@@ -1,5 +1,6 @@
 import com.google.inject.Inject;
 import com.google.inject.Singleton;
+import test_interface.TestInterface;
 
 @Singleton
 public class MyService {

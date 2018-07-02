@@ -1,7 +1,10 @@
+package random_integer_util;
+
 import com.google.inject.Inject;
 import com.google.inject.assistedinject.Assisted;
+import random_integer_util.RandomIntegerUtil;
 
-public class RandomIntegerUtilImplementation implements RandomIntegerUtil{
+public class RandomIntegerUtilImplementation implements RandomIntegerUtil {
   private final int numberForDisplaying;
 
   @Inject

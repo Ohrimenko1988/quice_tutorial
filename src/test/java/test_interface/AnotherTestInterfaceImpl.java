@@ -1,5 +1,9 @@
+package test_interface;
+
 import com.google.inject.Inject;
 import com.google.inject.Singleton;
+import part_of_description.PartOfDescription;
+import test_interface.TestInterface;
 
 @Singleton
 public class AnotherTestInterfaceImpl implements TestInterface {

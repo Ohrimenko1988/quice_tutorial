@@ -1,5 +1,9 @@
+package test_interface;
+
 import com.google.inject.Inject;
 import com.google.inject.Provider;
+import test_interface.TestInterface;
+import test_interface.TestInterfaceImpl;
 
 public class TestInterfaceImplProvider implements Provider <TestInterface> {
   @Inject private TestInterfaceImpl testInterfaceImpl;

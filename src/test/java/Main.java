@@ -1,6 +1,7 @@
 import com.google.inject.Guice;
 import com.google.inject.Inject;
 import com.google.inject.Injector;
+import random_integer_util.RandomIntegerUtilCreatedFactory;
 
 import java.util.Random;
 
@@ -14,7 +15,7 @@ public class Main {
 
   public static void main(String[] args) {
     Injector injector = Guice.createInjector(new BindModule());
-    //TestInterface testInterface = injector.getInstance(TestInterface.class);
+    //test_interface.TestInterface testInterface = injector.getInstance(test_interface.TestInterface.class);
     Main service = injector.getInstance(Main.class);
     RandomIntegerUtilCreatedFactory randomIntegerUtilCreatedFactory = injector
         .getInstance(RandomIntegerUtilCreatedFactory.class);
